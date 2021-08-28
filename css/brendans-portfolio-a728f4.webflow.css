@@ -916,6 +916,7 @@ figcaption {
 }
 
 .blog-content-wrapper {
+  margin:auto;
   width: 57%;
   margin-top: 40px;
 }
@@ -4840,4 +4841,14 @@ figcaption {
   font-weight: 100;
   font-style: normal;
   font-display: swap;
+}
+
+/*CUSTOM CSS*/
+
+.display_none{
+  display:none;
+}
+.display_flex{
+  display:flex;
+  flex-direction:column;
 }
