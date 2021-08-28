@@ -4848,7 +4848,6 @@ figcaption {
 .display_none{
   display:none;
 }
-.display_flex{
-  display:flex;
-  flex-direction:column;
+.form_center{
+  justify-content: center !important;
 }
