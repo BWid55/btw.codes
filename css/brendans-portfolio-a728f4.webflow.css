@@ -634,10 +634,14 @@ figcaption {
 }
 
 .image {
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 85%;
   -o-object-fit: cover;
   object-fit: cover;
+  margin: auto;
+  display: block;
+  border: none;
+  box-shadow: none;
 }
 
 .image.contain {
