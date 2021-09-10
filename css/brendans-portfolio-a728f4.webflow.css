@@ -639,7 +639,9 @@ figcaption {
   -o-object-fit: cover;
   object-fit: cover;
   top: 0;
+  bottom: 0;
   left: 0;
+  right: 0;
   border: 0;
 }
 
