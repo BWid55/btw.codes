@@ -640,9 +640,6 @@ figcaption {
   object-fit: cover;
   margin: auto;
   border: none;
-  position: absolute;
-  margin-left: 15%;
-  overflow-x: hidden;
 }
 
 .image.contain {
