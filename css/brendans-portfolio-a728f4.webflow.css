@@ -634,8 +634,8 @@ figcaption {
 }
 
 .image {
-  width: 10%;
-  height: 10%;
+  width: 30%;
+  height: 30%;
   -o-object-fit: cover;
   object-fit: cover;
   margin: auto;
