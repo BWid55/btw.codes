@@ -3650,6 +3650,9 @@ figcaption {
     -o-object-fit: cover;
     object-fit: cover;
   }
+  .body{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
