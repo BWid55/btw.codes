@@ -638,6 +638,8 @@ figcaption {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  margin: auto;
+  border: none;
 }
 
 .image.contain {
@@ -3649,9 +3651,6 @@ figcaption {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-  .iframe{
-    width: 50%;
   }
 }
 
