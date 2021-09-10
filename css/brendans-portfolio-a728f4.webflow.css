@@ -641,9 +641,6 @@ figcaption {
   margin: auto;
   border: none;
 }
-iframe{
-  margin: auto;
-}
 
 .image.contain {
   -o-object-fit: contain;
@@ -4211,6 +4208,8 @@ iframe{
 
   .project-slider-image-wrapper {
     height: 250px;
+    display: flex;
+    justify-content: center;
   }
 
   .blog-heading-and-subtext-wrapper {
