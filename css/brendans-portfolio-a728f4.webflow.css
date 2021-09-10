@@ -3650,6 +3650,9 @@ figcaption {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .iframe{
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 767px) {
