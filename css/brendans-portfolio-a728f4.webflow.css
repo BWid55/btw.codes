@@ -3644,6 +3644,12 @@ figcaption {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .image{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4860,13 +4866,4 @@ figcaption {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-}
-@media screen and (max-width: 9000000px) {
-  .image{
-    width: 100% !important;
-    height: 100% !important;
-    -o-object-fit: cover !important;
-    object-fit: cover !important;
-    margin: auto !important;
-  }
 }
