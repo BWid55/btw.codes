@@ -4209,7 +4209,7 @@ figcaption {
   .project-slider-image-wrapper {
     height: 250px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
   }
 
   .blog-heading-and-subtext-wrapper {
