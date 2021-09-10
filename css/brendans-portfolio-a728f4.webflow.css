@@ -891,7 +891,6 @@ figcaption {
   height: 305px;
   background-color: pink;
   display: flex;
-  justify-content: right;
   text-align: center;
 }
 
