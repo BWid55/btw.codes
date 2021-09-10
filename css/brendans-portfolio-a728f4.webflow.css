@@ -641,6 +641,9 @@ figcaption {
   margin: auto;
   border: none;
 }
+iframe{
+  margin: auto;
+}
 
 .image.contain {
   -o-object-fit: contain;
