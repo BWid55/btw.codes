@@ -4869,3 +4869,6 @@ figcaption {
   -o-object-fit: cover;
   object-fit: cover;
 }
+iframe{
+  width: 100%;
+}
