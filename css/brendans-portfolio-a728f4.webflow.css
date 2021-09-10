@@ -892,6 +892,7 @@ figcaption {
   background-color: pink;
   display: flex;
   justify-content: right;
+  text-align: center;
 }
 
 .project-slider-content {
