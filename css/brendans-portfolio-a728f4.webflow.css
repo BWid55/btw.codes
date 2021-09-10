@@ -634,14 +634,10 @@ figcaption {
 }
 
 .image {
-  width: 85%;
-  height: 85%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  margin: auto;
-  display: block;
-  border: none;
-  box-shadow: none;
 }
 
 .image.contain {
@@ -3029,6 +3025,16 @@ figcaption {
   .project-item-right-animation-div {
     display: none;
   }
+  .image{
+    width: 85%;
+    height: 85%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    border: none;
+    box-shadow: none;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -3643,12 +3649,6 @@ figcaption {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-  .image{
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
   }
 }
 
