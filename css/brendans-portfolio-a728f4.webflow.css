@@ -644,6 +644,7 @@ figcaption {
   right: 0;
   border: 0;
   position: absolute;
+  margin: auto;
 }
 
 .image.contain {
