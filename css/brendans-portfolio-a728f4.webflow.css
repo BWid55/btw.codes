@@ -642,6 +642,7 @@ figcaption {
   border: none;
   position: absolute;
   margin-left: 15%;
+  overflow-x: hidden;
 }
 
 .image.contain {
