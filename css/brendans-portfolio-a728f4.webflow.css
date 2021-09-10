@@ -4861,7 +4861,7 @@ figcaption {
   -o-object-fit: cover;
   object-fit: cover;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 900px) {
   .image{
     width: 100% !important;
     height: 100% !important;
