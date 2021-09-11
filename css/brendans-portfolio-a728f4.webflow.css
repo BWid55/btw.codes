@@ -638,7 +638,6 @@ figcaption {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  display: block;
 }
 
 .image.contain {
@@ -4869,4 +4868,7 @@ figcaption {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+iframe{
+  display: block;
 }
