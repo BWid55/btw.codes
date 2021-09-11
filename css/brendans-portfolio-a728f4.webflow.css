@@ -4868,3 +4868,6 @@ figcaption {
   -o-object-fit: cover;
   object-fit: cover;
 }
+.section:focus{
+  outline: none;
+}
