@@ -638,6 +638,8 @@ figcaption {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  display: block;
+  margin: auto;
 }
 
 .image.contain {
