@@ -1476,7 +1476,7 @@ figcaption {
 
 .footer-address-wrapper {
   display: block;
-  width: 60%;
+  width: 100%;
   padding-left: 0px;
   text-align: left;
 }
@@ -2497,6 +2497,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 .contact-email.footer {
@@ -4873,8 +4874,38 @@ figcaption {
   font-size: large;
 }
 select{
+  appearance: none;
+  background-color: transparent;
   border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  outline: none;
+
+  width: 100%;
+  max-width: 15ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #ffa84b;
+  color: white;
+  background-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+
   margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+:root {
+  --select-border: #777;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
 }
 .to_be_displayed{
   display: none;
