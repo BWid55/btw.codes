@@ -146,3 +146,18 @@ p:nth-child(9) {
 		opacity: 0;
 	}
 }
+a{
+	text-decoration: none;
+	width: 100%;
+	max-width: 15ch;
+	border: 1px solid var(--select-border);
+	border-radius: 0.25em;
+	padding: 0.25em 0.5em;
+	font-size: 1.25rem;
+	cursor: pointer;
+	line-height: 1.1;
+	background-color: #ffa84b;
+	color: white;
+	background-image: linear-gradient(to top, #ffa84b, #ff8a56, #ff5e69, #b16cea);
+	border: 1px solid white;
+}
