@@ -4914,3 +4914,15 @@ select{
 .image-self{
   width: 100%;
 }
+.my-project-mobile-navbar{
+  color:#ffa84b; 
+  border:1px solid #ffa84b; 
+  padding: 0 5px;
+}
+@media only screen and (max-width: 500px){
+  .my-project-mobile-navbar{
+    color:#ffa84b; 
+    border: none; 
+    padding: 0;
+  }
+}
