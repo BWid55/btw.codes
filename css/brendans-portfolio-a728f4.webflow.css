@@ -4911,3 +4911,6 @@ select{
   display: none;
   margin-top: 15px;
 }
+.small-text{
+  font-size: 1.25rem;
+}

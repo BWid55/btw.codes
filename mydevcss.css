@@ -1,4 +1,17 @@
-.navbar {
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 100%;
     display: flex;
     justify-content: right;
+    display: none;
+}
+.introduction{
+    border: 6px solid bisque;
+    background-color: beige;
+}
+.intro_right{
+    margin: 5px;
+    border-left: 6px dotted bisque;
 }
