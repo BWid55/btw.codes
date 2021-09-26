@@ -4915,13 +4915,14 @@ select{
   width: 100%;
 }
 .my-project-mobile-navbar{
-  color:#ffa84b; 
-  border:1px solid #ffa84b; 
+  color:black; 
+  border:3px solid #ffa84b; 
   padding: 0 5px;
+  background: #ffa84b;
 }
 @media only screen and (max-width: 500px){
   .my-project-mobile-navbar{
-    color:#ffa84b; 
+    color:black; 
     border: none; 
     padding: 0;
   }
