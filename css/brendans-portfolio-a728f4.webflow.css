@@ -4391,7 +4391,7 @@ figcaption {
   .project-item-content-wrapper {
     width: 90%;
     margin-left: -253px;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 20px;
     padding-left: 15px;
   }
