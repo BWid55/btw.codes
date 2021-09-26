@@ -3462,7 +3462,7 @@ figcaption {
     justify-content: flex-end;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
-    -ms-flex-align: start;
+    -ms-flex-align: center;
     align-items: flex-start;
     background-color: black;
     box-shadow: 12px 12px 50px 0 rgba(0, 0, 0, 0.2);
