@@ -4911,3 +4911,6 @@ select{
 .small-text{
   font-size: 1.25rem;
 }
+.image-self{
+  width: 100%;
+}
