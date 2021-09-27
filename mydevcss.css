@@ -161,10 +161,6 @@
     text-align: center;
 }
 /* End Learned List */
-.intro_right{
-    width: 575px;
-    border: 2px solid black;
-}
 .intro_right p{
     margin-bottom: 0;
     font-weight: 700;
@@ -174,9 +170,9 @@
 }
 .project-container{
     width: 100%;
-    background-color: pink;
+    text-align: center;
 }
 
 @media screen and (max-width: 480px){
-    
+
 }
