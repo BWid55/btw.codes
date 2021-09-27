@@ -3462,9 +3462,9 @@ figcaption {
     justify-content: flex-end;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
-    -ms-flex-align: center;
+    -ms-flex-align: start;
     align-items: flex-start;
-    background-color: black;
+    background-color: #fff;
     box-shadow: 12px 12px 50px 0 rgba(0, 0, 0, 0.2);
   }
 
@@ -4926,4 +4926,7 @@ select{
     border: none; 
     padding: 0;
   }
+}
+.my-navbar-menu{
+  background-color: black;
 }
