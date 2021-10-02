@@ -4919,6 +4919,7 @@ select{
   border:3px solid #ffa84b; 
   padding: 0 5px;
   background: #ffa84b;
+  border-radius: 50px;
 }
 @media only screen and (max-width: 500px){
   .my-project-mobile-navbar{
