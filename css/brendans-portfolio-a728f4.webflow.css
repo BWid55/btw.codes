@@ -4926,6 +4926,7 @@ select{
     color:black; 
     border: none; 
     padding: 0;
+    text-align: center;
   }
 }
 .JUST-MY-navbar-menu{
