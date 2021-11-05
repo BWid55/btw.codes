@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="images/favicon.png">
+    <title>Dev Projects</title>
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/favicon.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="mydevcss.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+     crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="navbar-container">
+        <a href='index.html' class='eigth before after'>Return to Homescreen</a>
+    </div>
     <div class="container">
-        <div class="navbar-container intro_left">
-            <a href='index.html' class='eigth before after'>Return to Homescreen</a>
-        </div>
-        <div class="row introduction">
-            <div class="col-8 intro_left">
+        <div class="introduction">
+            <div class="intro_left">
                 <h2>What is this?</h2>
-                <p>This page is dedicated to projects that lie outside my e-commerce work and will not include Shopify or Liquid.</p>
-                <p>It will contain most of the steps on my journey from almost no functional knowledge to competency and, potentially, beyond.</p>
+                <p>This page is dedicated to projects that lie outside my e-commerce work and will not include Shopify
+                    or Liquid.</p>
+                <p>It will contain most of the steps on my journey from almost no functional knowledge to competency
+                    and, potentially, beyond.</p>
             </div>
-            <div class="col-4 intro_right">
+            <div class="intro_right">
                 <p>Learned:</p>
                 <ol>
-                    <li>HTML</li>
+                    <li>HTML<sub>5</sub></li>
                     <li>CSS</li>
                     <li>Flexbox</li>
-                    <li>Bootstrap</li>
                     <li>JavaScript</li>
                     <li>jQuery</li>
                 </ol>
@@ -38,13 +51,27 @@
     </div>
     <div class="container-fluid project-container">
         <div class="selector-container">
-            <select class='project-selector'>
-                <option>Select a Project</option>
+            <select id='project-selector'>
+                <option>Select a Journey Project</option>
+                <option value='project-02-container'></option>
+                <option value='project-01-container'></option>
             </select>
         </div>
+        <!---
+        <div id="project-XX-container" class="projects">
+            <div class="project-notes-container">
+                <p class='project-notes'>*Note: this project is not responsive and has a width of 1000px*</p>
+            </div>
+
+        </div>
+        --->
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="mydevjs.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
